@@ -1,0 +1,53 @@
+/* 列表页专有的css */
+@font-face {
+    font-family: "iconfont"; /* Project id 2987410 */
+    src: url(../1206download/font_2987410_4k77kam9tzs/iconfont.woff2?t=1638781648315) format('woff2'),
+         url(../1206download/font_2987410_4k77kam9tzs/iconfont.woff?t=1638781648315) format('woff'),
+         url(../1206download/font_2987410_4k77kam9tzs/iconfont.ttf?t=1638781648315) format('truetype');
+  }
+  
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    padding-top: 2px;
+    padding-left: 16px;
+    border-left: 2px solid #b1191a;
+}
+.sk_list ul li{
+    float: left;
+    
+}
+.sk_list ul li  a{
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 0 28px;
+    color: #000;
+    text-align: center;
+    line-height: 45px;
+}
+.sk_con ul li{
+    float: left;
+    
+}
+.sk_con a{
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0 22px;
+    /* color: #000; */
+    text-align: center;
+    line-height: 45px;
+}
+.sk_con ul li:last-child a::after{
+content: "\e6b9";
+    font-family: "iconfont" 
+}
